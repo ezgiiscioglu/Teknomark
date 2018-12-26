@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SakaryaBufe.Models.Kategori>
+
+@{
+    ViewBag.Title = "Kategoriler";
+    Layout = "~/Views/Shared/_YonetimLayout.cshtml";
+}
+
+<h2>Kategoriler</h2>
+
+<p>
+    @Html.ActionLink("Kategori Ekle", "Create" , null , new { @class="btn btn-success"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.kategoriAd)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <b>  @Html.DisplayFor(modelItem => item.kategoriAd)</b>
+        </td>
+
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id = item.id }, htmlAttributes: new { @class = "btn btn-default" })
+            @Html.ActionLink("Detayları Gör", "Details", new { id = item.id }, htmlAttributes: new { @class = "btn btn-primary" })
+            @Html.ActionLink("Sil", "Delete", new { id = item.id }, htmlAttributes: new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

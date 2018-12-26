@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SakaryaBufe.Manset>
+
+@{
+    ViewBag.Title = "Slider";
+    Layout = "~/Views/Shared/Yonetim.cshtml";
+}
+
+<h2>Slider</h2>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Mbaslik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Maciklama)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MresimYol)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mbaslik)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Maciklama)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MresimYol)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+          
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

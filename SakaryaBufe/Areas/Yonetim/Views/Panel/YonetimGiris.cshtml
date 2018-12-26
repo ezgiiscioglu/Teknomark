@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sakarya Büfe Yönetici Paneli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/Content/admin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link href="/Content/admin/css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+    <div class="page-content">
+        <div class="row">
+
+
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-wrapper">
+                    @using (Html.BeginForm("YonetimGiris", "Panel", new { lang = "tr" }, FormMethod.Post, null))
+                    {
+                        <div class="box">
+                            <div class="text-danger">
+                                <b> @ViewBag.Hata </b>
+                            </div>
+                            <div class="content-wrap">
+                                <h6>YÖNETİCİ GİRİSİ</h6>
+
+                                <input class="form-control" type="text" name="mail" placeholder="E-mail address">
+                                <input class="form-control" type="password" name="pass" placeholder="Password">
+                                <div class="action">
+                                    <input class="btn btn-primary signup" type="submit" value="Giris Yap" />
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+

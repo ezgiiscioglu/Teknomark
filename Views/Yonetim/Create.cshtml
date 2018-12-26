@@ -1,0 +1,70 @@
+﻿@model SakaryaBufe.Urunler
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/Yonetim.cshtml";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        @Html.LabelFor(model => model.Baslik)
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Baslik)
+            @Html.ValidationMessageFor(model => model.Baslik)
+        </div>
+    </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Aciklama)
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Aciklama)
+                @Html.ValidationMessageFor(model => model.Aciklama)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ResimYol)
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ResimYol)
+                @Html.ValidationMessageFor(model => model.ResimYol)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fiyat)
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Fiyat)
+                @Html.ValidationMessageFor(model => model.Fiyat)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Kategori)
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Kategori)
+                @Html.ValidationMessageFor(model => model.Kategori)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+}
+
+<div class="form-group">
+    <div class="col-md-10">
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+</div>
+
+

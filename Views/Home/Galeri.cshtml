@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+@model IEnumerable<SakaryaBufe.Resimler>
+
+
+
+
+<div class="" data-wow-delay=".5s">
+    <section class="slider grid">
+        <div class="flexslider">
+            <ul class="slides">
+                @foreach (var i in Model)
+                {
+                    <li>
+                        <div align="center"><img src="@i.ResimYolu" alt="resim"></div>
+
+                    </li>
+                }
+            </ul>
+        </div>
+    </section>
+    <!--FlexSlider-->
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "pagination",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+    </script>
+    <!--End-slider-script-->
+</div>
+<div class="clearfix"> </div>

@@ -1,0 +1,20 @@
+﻿@model SakaryaBufe.Models.Urunler
+
+@{
+    ViewBag.Title = "Ürün Sil";
+    Layout = "~/Views/Shared/_YonetimLayout.cshtml";
+}
+
+<h2>Ürün Sil</h2>
+
+<h3>  @Html.DisplayFor(model => model.Baslik) Ürününü Silmek İstediğinizden Emin misiniz?</h3>
+<div>
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> 
+            @Html.ActionLink("Ürünler Listesine Dön", "Index" , null , new { @class="btn btn-success"})
+        </div>
+    }
+</div>

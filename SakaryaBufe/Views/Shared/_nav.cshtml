@@ -1,0 +1,12 @@
+﻿
+@{ 
+    Layout = null;
+
+}
+
+@model IEnumerable<SakaryaBufe.Models.Kategori>
+
+@foreach (var item in Model)
+{
+    <li>@Html.ActionLink(item.kategoriAd, "UrunlerListele", "Home",new { id = item.id },null)</li>
+}

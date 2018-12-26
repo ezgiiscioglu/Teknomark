@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - TeknoMark</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <title>Sakarya Büfe Resmi Web Sitesi</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Modern Shoppe Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--//for-mobile-apps -->
+    <!--Custom Theme files -->
+    <link href="/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="/Content/css/flexslider.css" type="text/css" media="screen" />
+    <!--//Custom Theme files -->
+    <!--js-->
+    <script src="/Content/js/jquery-1.11.1.min.js"></script>
+    <script src="/Content/js/modernizr.custom.js"></script>
+    <!--//js-->
+    <!--cart-->
+    <script src="/Content/js/simpleCart.min.js"></script>
+    <!--cart-->
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Fascinate' rel='stylesheet' type='text/css'>
+    <!--web-fonts-->
+    <!--animation-effect-->
+    <link href="/Content/css/animate.min.css" rel="stylesheet">
+    <script src="/Content/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//animation-effect-->
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript" src="/Content/js/move-top.js"></script>
+    <script type="text/javascript" src="/Content/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!--//end-smooth-scrolling-->
+
+</head>
+
+<body>
+
+
+    <!--header-->
+    <div class="header">
+        <div class="top-header navbar navbar-default">
+            <!--header-one-->
+            <div class="container">
+                <div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
+                    <p>
+                        @Resources.Home.hosgeldiniz
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            @Html.ActionLink(Resources.Home.uye_ol, "KayitOl", "Uyelik")
+                            @Html.ActionLink(Resources.Home.giris_yap, "GirisYap", "Uyelik")
+
+
+                        }
+                        else
+                        {
+                            if (User.IsInRole("A"))
+                            {
+                                @Html.ActionLink("Admin", "Index", "Urunler",new { lang = "tr" },null)
+                            }
+
+                            @Html.ActionLink(Resources.Home.cikis, "CikisYap", "Uyelik")
+                        }
+
+                    </p>
+                </div>
+                <div class="nav navbar-brand">
+
+                    @Html.ActionLink("TR", "Index", new { lang = "tr" }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("EN", "Index", new { lang = "en" }, new { @class = "btn btn-success" })
+
+                </div>
+                <div class="nav navbar-nav navbar-right social-icons wow fadeInRight animated" data-wow-delay=".5s">
+
+                    <ul>
+                        <li><a href="https://tr-tr.facebook.com/login/"> </a></li>
+                        <li><a href="https://www.linkedin.com/uas/login" class="in"> </a></li>
+                        <li><a href="https://www.youtube.com" class="you"> </a></li>
+                    </ul>
+
+
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="header-two navbar navbar-default">
+            <!--header-two-->
+            <div class="container">
+                <div class="nav navbar-nav header-two-left">
+
+                </div>
+                <div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
+                    <h1><a href="/tr/Home/Index">TEKNO <b> MARK</b><span class="tag"> </span> </a></h1>
+                </div>
+                <div class="nav navbar-nav navbar-right header-two-right">
+                    <div class="header-right my-account">
+                        <a href=""><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> @Html.ActionLink(Resources.Home.iletisim, "Index", "Iletisim") </a>
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="top-nav navbar navbar-default">
+            <!--header-three-->
+            <div class="container">
+                <nav class="navbar" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </nav>
+
+                <!--navbar-header-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav top-nav-info">
+                        <li>@Html.ActionLink(Resources.Home.home, "Index", "Home")</li>
+                        <li>@Html.ActionLink(Resources.Home.hakkimizda, "Index", "Hakkimizda")</li>
+                        |
+                        @{ Html.RenderAction("_nav", "Home");}
+
+                    </ul>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--gallery-->
+    @RenderBody();
+
+    <!--//gallery-->
+    <!--trend-->
+    <!--//trend-->
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".5s">
+
+                    <p> Copyright © TeknoMark 2018 </p>
+                    <p> @Resources.Home.haklar </p>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--//footer-->
+    <!--search jQuery-->
+    <script src="/Content/js/main.js"></script>
+    <!--//search jQuery-->
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!--//smooth-scrolling-of-move-up-->
+    <!--Bootstrap core JavaScript
+    ================================================== -->
+    <!--Placed at the end of the document so the pages load faster -->
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+

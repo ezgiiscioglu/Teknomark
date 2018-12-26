@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "İletisim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="contact">
+    <div class="container">
+        <div class="title-info wow fadeInUp animated" data-wow-delay=".5s">
+            <h3 class="title"> @Resources.Home.bize_ulasin</h3>
+
+        </div>
+        <iframe class="wow zoomIn animated animated" data-wow-delay=".5s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57537.641430789925!2d-74.03215321337959!3d40.719122105634035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1456152197129" allowfullscreen=""></iframe>
+    </div>
+</div>
+<div class="address">
+    <!--address-->
+    <div class="container">
+        <div class="address-row">
+            <div class="col-md-6 address-left wow fadeInLeft animated" data-wow-delay=".5s">
+                <div class="address-grid">
+                    <h4 class="wow fadeIndown animated" data-wow-delay=".5s"> @Resources.Home.bize_mesaj_atin </h4>
+                    <form action="/Urunler/SatinAl" method="post">
+
+                        <input class="wow fadeIndown animated" data-wow-delay=".6s" type="text" name="İsim" placeholder="İsim" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".7s" type="text" name="Mail" placeholder="Mail" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".7s" type="text" name="Telefon" placeholder="Telefon" required="">
+                        <textarea class="wow fadeIndown animated" data-wow-delay=".8s" name="Mesaj" placeholder="Mesaj" required=""></textarea>
+                        <input class="wow fadeIndown animated" data-wow-delay=".9s" type="submit" value="GÖNDER">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 address-right">
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".5s">
+                    <h4>@Resources.Home.adres</h4>
+                    <p>Kemalpasa Mahallesi Universite Caddesi 235. Sokak No:12 Serdivan / Sakarya </p>
+                </div>
+                <div class="address-info address-mdl wow fadeInRight animated" data-wow-delay=".7s">
+                    <h4> TEL </h4>
+                    <p>0216-537-84-80</p>
+
+                </div>
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".6s">
+                    <h4> WEB ADRES </h4>
+                    <p><a href="www.teknomark.com"> www.teknomark.com</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿
+
+@{
+    ViewBag.Title = "SatinAl";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model SakaryaBufe.Urunler
+<div class="address">
+    <!--address-->
+    <div class="container">
+        <div class="address-row">
+            <div class="col-md-6 address-left wow fadeInLeft animated" data-wow-delay=".5s">
+                <div class="address-grid">
+                    <h4 class="wow fadeIndown animated" data-wow-delay=".5s">Bize Mesaj Atın </h4>
+                    <form action="/Urunler/SatinAl" method="post">
+                        <input class="wow fadeIndown animated" data-wow-delay=".6s" type="text" name="Urun" placeholder="@Model.Baslik" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".6s" type="text" name="İsim" placeholder="İsim" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".7s" type="text" name="Mail" placeholder="Mail" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".7s" type="text" name="Telefon" placeholder="Telefon" required="">
+                        <textarea class="wow fadeIndown animated" data-wow-delay=".8s" name="Mesaj" placeholder="Mesaj" required=""></textarea>
+                        <input class="wow fadeIndown animated" data-wow-delay=".9s" type="submit" value="GÖNDER">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 address-right">
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".5s">
+                    <h4>ADRES</h4>
+                    <p>Incirköy Mahallesi Çukurçayır Caddesi No:29/A Beykoz / İSTANBUL</p>
+                </div>
+                <div class="address-info address-mdl wow fadeInRight animated" data-wow-delay=".7s">
+                    <h4>TELEFON </h4>
+                    <p>0216-537-84-80</p>
+
+                </div>
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".6s">
+                    <h4>MAIL</h4>
+                    <p><a href="mailto:bufesakarya@gmail.com"> bufesakarya@gmail.com</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

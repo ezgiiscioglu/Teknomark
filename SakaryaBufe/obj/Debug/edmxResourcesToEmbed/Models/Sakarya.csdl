@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SakaryaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Manset">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mbaslik" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Maciklama" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+    <Property Name="MresimYol" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Resimler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResimYolu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ResimUrun" Type="Int32" />
+    <NavigationProperty Name="Urunler" Relationship="Self.FK_Resimler_Urunler" FromRole="Resimler" ToRole="Urunler" />
+  </EntityType>
+  <EntityType Name="Urunler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+    <Property Name="ResimYol" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fiyat" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+    <Property Name="Kategori" Type="Int32" />
+    <NavigationProperty Name="Resimler" Relationship="Self.FK_Resimler_Urunler" FromRole="Urunler" ToRole="Resimler" />
+    <NavigationProperty Name="Kategori1" Relationship="SakaryaModel.FK_UrunKategori" FromRole="Urunler" ToRole="Kategori" />
+  </EntityType>
+  <Association Name="FK_Resimler_Urunler">
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="1" />
+    <End Role="Resimler" Type="Self.Resimler" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Urunler">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Resimler">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SakaryaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Mansets" EntityType="Self.Manset" />
+    <EntitySet Name="Resimlers" EntityType="Self.Resimler" />
+    <EntitySet Name="Urunlers" EntityType="Self.Urunler" />
+    <AssociationSet Name="FK_Resimler_Urunler" Association="Self.FK_Resimler_Urunler">
+      <End Role="Urunler" EntitySet="Urunlers" />
+      <End Role="Resimler" EntitySet="Resimlers" />
+    </AssociationSet>
+    <EntitySet Name="Uyelers" EntityType="SakaryaModel.Uyeler" />
+    <EntitySet Name="Kategoris" EntityType="SakaryaModel.Kategori" />
+    <AssociationSet Name="FK_UrunKategori" Association="SakaryaModel.FK_UrunKategori">
+      <End Role="Kategori" EntitySet="Kategoris" />
+      <End Role="Urunler" EntitySet="Urunlers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Uyeler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Eposta" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Role" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kategoriAd" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Urunlers" Relationship="SakaryaModel.FK_UrunKategori" FromRole="Kategori" ToRole="Urunler" />
+  </EntityType>
+  <Association Name="FK_UrunKategori">
+    <End Type="SakaryaModel.Kategori" Role="Kategori" Multiplicity="0..1" />
+    <End Type="SakaryaModel.Urunler" Role="Urunler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Urunler">
+        <PropertyRef Name="Kategori" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model IEnumerable<SakaryaBufe.Urunler>
+<div class="gallery">
+    <div class="container">
+        <div class="title-info wow fadeInUp animated" data-wow-delay=".5s">
+            <h3 class="title">Sakarya Büfe<span> Ürünler </span></h3>
+
+        </div>
+        <div class="gallery-info">
+            @foreach (var urunler in Model)
+            {
+
+                <div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+                    <a href="Urunler/Detay/@urunler.id"><img src="@urunler.ResimYol" class="img-responsive" alt="" /></a>
+                    
+                    <div class="gallery-text simpleCart_shelfItem">
+                        <h5><a class="name" href="single.html">@urunler.Baslik </a></h5>
+                        <p>@urunler.Aciklama</p>
+                        <p>@urunler.Fiyat</p>
+                        <div class="btn_form">
+                    <a href="/Urunler/SatinAl/@urunler.id" class="add-cart item_add">SATIN AL</a>
+                </div>
+                    </div>
+                </div>
+
+            }
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+

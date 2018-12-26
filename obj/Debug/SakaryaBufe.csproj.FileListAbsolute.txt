@@ -1,0 +1,138 @@
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\csc.exe
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\System.Collections.Immutable.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\vbc.exe
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\VBCSCompiler.exe
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\roslyn\VBCSCompiler.exe.config
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\SakaryaBufe.dll.config
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\SakaryaBufe.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\SakaryaBufe.pdb
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Antlr3.Runtime.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\EntityFramework.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\EntityFramework.SqlServer.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Google.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Web.Infrastructure.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Newtonsoft.Json.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Owin.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Helpers.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Mvc.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Optimization.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Razor.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.WebPages.Deployment.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.WebPages.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.WebPages.Razor.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\WebGrease.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Helpers.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Mvc.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Optimization.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.Razor.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.WebPages.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.WebPages.Deployment.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\System.Web.WebPages.Razor.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Antlr3.Runtime.pdb
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Newtonsoft.Json.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\EntityFramework.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\EntityFramework.SqlServer.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Google.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\obj\Debug\SakaryaBufe.csprojResolveAssemblyReference.cache
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\obj\Debug\SakaryaBufe.dll
+c:\users\betül\documents\visual studio 2015\Projects\SakaryaBufe\SakaryaBufe\obj\Debug\SakaryaBufe.pdb
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\csc.exe
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\System.Collections.Immutable.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\System.Reflection.Metadata.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\vbc.exe
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\VBCSCompiler.exe
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\roslyn\VBCSCompiler.exe.config
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\SakaryaBufe.dll.config
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\SakaryaBufe.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\SakaryaBufe.pdb
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Antlr3.Runtime.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\EntityFramework.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\EntityFramework.SqlServer.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.AspNet.Identity.Core.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Cookies.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Facebook.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Google.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.OAuth.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Twitter.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Web.Infrastructure.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Newtonsoft.Json.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Owin.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Helpers.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Mvc.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Optimization.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Razor.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.WebPages.Deployment.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.WebPages.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.WebPages.Razor.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\WebGrease.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Helpers.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Mvc.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Optimization.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.Razor.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.WebPages.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.WebPages.Deployment.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\System.Web.WebPages.Razor.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Antlr3.Runtime.pdb
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Newtonsoft.Json.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\EntityFramework.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\EntityFramework.SqlServer.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.AspNet.Identity.Core.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Facebook.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Cookies.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.OAuth.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Google.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.Twitter.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\obj\Debug\SakaryaBufe.csprojResolveAssemblyReference.cache
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\obj\Debug\SakaryaBufe.dll
+E:\YEDEKLER\masaüstü\SakaryaBufe1\SakaryaBufe\obj\Debug\SakaryaBufe.pdb

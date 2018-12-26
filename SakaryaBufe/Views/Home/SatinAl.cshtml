@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "SatinAl";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model SakaryaBufe.Models.Urunler
+
+<br />
+<br />
+<div align="center">
+
+    <img align="middle" src="~/Content/images/@Model.ResimYol" width="200" height="150" />
+    <br />
+    <br />
+    <br />
+    <h2 align="center"> @Model.Baslik Ürününü Satın Al</h2>
+
+
+</div>
+
+<div class="address">
+    <!--address-->
+    <div class="container">
+        <div class="address-row">
+            <div class="col-md-6 address-left wow fadeInLeft animated" data-wow-delay=".5s">
+                <div class="address-grid">
+                    <h4 class="wow fadeIndown animated" data-wow-delay=".5s"> Satın Almak İçin Kart Bilgilerinizi Girin </h4>
+                    <form action="/Urunler/SatinAl" method="post">
+                        <input class="wow fadeIndown animated" data-wow-delay=".6s" type="text" name="İsim" placeholder="Kart No" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".7s" type="text" name="Mail" placeholder="Son Kullanma Tarihi orn:12/19" required="">
+                        <input class="wow fadeIndown animated" data-wow-delay=".7s" type="text" name="Telefon" placeholder="CVC no (arka taraf son 3 hane)" required="">
+                       <br />
+                        <a href="https://merchant.iyzipay.com/auth/login"  class="btn btn-success" >SATIN AL</a>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 address-right">
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".5s">
+                    <h4>ADRES</h4>
+                    <p>Incirköy Mahallesi Çukurçayır Caddesi No:29/A Beykoz / İSTANBUL</p>
+                </div>
+                <div class="address-info address-mdl wow fadeInRight animated" data-wow-delay=".7s">
+                    <h4>TELEFON </h4>
+                    <p>0216-537-84-80</p>
+
+                </div>
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".6s">
+                    <h4>MAIL</h4>
+                    <p><a href="info@teknomark.com"> info@teknomark.com</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
